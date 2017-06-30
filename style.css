@@ -83,14 +83,16 @@ body {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     position: relative;
     margin: 0 auto;
+    cursor: pointer;
 }
 
-#clock div {
+#clock .status {
     width: 150px;
     position: absolute;
     left: 50%;
     top: 40px;
     margin-left: -75px;
+    text-align: center;
 
 }
 
